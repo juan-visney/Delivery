@@ -1,6 +1,6 @@
 module.exports = {
     database: {
-        host: 'localhost',
+        host: '137.184.247.198',
         user: 'root',
         password: 'jvcode',
         database: 'delivery'
