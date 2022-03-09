@@ -8,7 +8,7 @@ const MySQLStore = require('express-mysql-session')
 const bodyParser =require('body-parser');
 const {database} = require('./keys')
 const passport = require('passport')
-
+//
 //init
 const app = express()
 require('./config/passport')
