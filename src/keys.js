@@ -1,8 +1,9 @@
 module.exports = {
     database: {
-        host: '137.184.247.198',
-        user: 'root',
-        password: 'jvcode',
-        database: 'delivery'
+        host: 'db-mysql-do-user-11056291-0.b.db.ondigitalocean.com',
+        user: 'jvcode',
+        password: 'pJIK4x5QDBHfQ3UW',
+        database: 'delivery',
+        port: 25060
     }
 }
