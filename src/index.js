@@ -6,7 +6,7 @@ const flash = require('connect-flash')
 const session = require('express-session')
 const MySQLStore = require('express-mysql-session')
 const bodyParser =require('body-parser');
-const {database} = require('./keys')
+const {database, port} = require('./keys')
 const passport = require('passport')
 //
 //init
@@ -14,7 +14,7 @@ const app = express()
 require('./config/passport')
 
 //settings
-app.set('port', process.env.PORT || 3000)
+app.set('port', port)
 app.set('views', path.join(__dirname, 'views'))
 app.engine('.hbs', handlebars({
     defaultLayout: "main",
